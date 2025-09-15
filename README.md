@@ -18,7 +18,7 @@ Trim, cut, and edit your videos quickly and easily on your device.
 
 ## Privacy
 No personal data is collected. All media processing happens on the device.  
-For the privacy policy, visit: `[Your Public Privacy Policy URL]`
+For the privacy policy, visit: `video-trimmer-privacy.html`
 
 ## Installation
 Clone the repository and open it in Android Studio. Build and run on a device or emulator.
