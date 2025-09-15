@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Header</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .header {
+      width: 100%;
+      min-height: 100vh;
+      background: linear-gradient(135deg, #4facfe, #00f2fe);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+      text-align: center;
+      padding: 50px;
+      box-sizing: border-box;
+    }
+
+    .header-content {
+      max-width: 1800px; /* scaled proportionally for large display */
+    }
+
+    .header h1 {
+      font-size: 4rem;
+      margin-bottom: 30px;
+    }
+
+    .header p {
+      font-size: 1.8rem;
+      line-height: 1.6;
+      margin-bottom: 50px;
+    }
+
+    .skills {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 40px;
+    }
+
+    .skill {
+      background: rgba(255, 255, 255, 0.15);
+      padding: 40px;
+      border-radius: 20px;
+      width: 180px;
+      transition: transform 0.3s, background 0.3s;
+    }
+
+    .skill i {
+      font-size: 4rem;
+      margin-bottom: 20px;
+      color: #fff;
+    }
+
+    .skill p {
+      margin: 0;
+      font-size: 1.3rem;
+      font-weight: bold;
+    }
+
+    .skill:hover {
+      transform: translateY(-15px);
+      background: rgba(255, 255, 255, 0.25);
+    }
+
+    @media (max-width: 1200px) {
+      .header h1 {
+        font-size: 3rem;
+      }
+      .header p {
+        font-size: 1.5rem;
+      }
+      .skill {
+        width: 140px;
+        padding: 30px;
+      }
+      .skill i {
+        font-size: 3rem;
+      }
+      .skill p {
+        font-size: 1.1rem;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .header h1 {
+        font-size: 2.2rem;
+      }
+      .header p {
+        font-size: 1.2rem;
+      }
+      .skill {
+        width: 120px;
+        padding: 25px;
+      }
+      .skill i {
+        font-size: 2.5rem;
+      }
+      .skill p {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <div class="header-content">
+      <h1>Mobile Developer</h1>
+      <p>Building innovative, reliable, user-friendly mobile apps that empower businesses, engage users, and deliver seamless, impactful experiences.</p>
+      <div class="skills">
+        <div class="skill">
+          <i class="fab fa-android"></i>
+          <p>Android</p>
+        </div>
+        <div class="skill">
+          <i class="fas fa-mobile-alt"></i>
+          <p>Flutter</p>
+        </div>
+        <div class="skill">
+          <i class="fab fa-react"></i>
+          <p>React Native</p>
+        </div>
+        <div class="skill">
+          <i class="fab fa-apple"></i>
+          <p>iOS</p>
+        </div>
+        <div class="skill">
+          <i class="fab fa-html5"></i>
+          <p>HTML</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+Mobile Developer
+Skilled in Android, Flutter, React Native, iOS, and web (HTML), building innovative, reliable, user-friendly apps that empower businesses and engage users.
+Android
+Flutter
+React Native
+iOS
+HTML
